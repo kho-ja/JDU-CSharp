@@ -1,0 +1,65 @@
+# C# project .gitignore file
+# Ignore build outputs
+bin/
+obj/
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+# Ignore Visual Studio temporary files
+*.vs/
+# Ignore NuGet packages
+*.nupkg
+# Ignore Rider IDE files
+.idea/
+# Ignore Resharper files
+*.ReSharper*/
+# Ignore publish outputs
+publish/
+# Ignore log files
+*.log
+# Ignore test result files
+TestResults/
+# Ignore coverage files
+*.coverage
+*.coveragexml
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore backup files
+*~.bak
+# Ignore JetBrains Rider project files
+*.sln.iml
+# Ignore Visual Studio Code settings
+.vscode/
+# Ignore global.json if not needed
+global.json
+# Ignore local configuration files
+appsettings.Development.json
+appsettings.Local.json
+# Ignore package lock files
+packages.lock.json
+# Ignore dotnet tool manifest
+.dotnet-tools.json
+# Ignore Azure Functions local settings
+local.settings.json
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.*.yml
+# Ignore coverage reports
+coverage/reports/
+# Ignore any other temporary or generated files
+*.generated.cs
+*.g.cs
+*.designer.cs
+*.g.i.cs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.class
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
