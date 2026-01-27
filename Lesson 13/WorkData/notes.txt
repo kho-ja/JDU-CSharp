@@ -1,0 +1,3 @@
+Bugun C# darsida fayllar bilan ishlashni o'rgandik.
+Matnli faylga ma'lumot yozish va qo'shish amaliyoti bajarildi.
+TextFileManager sinfi orqali qo'shimcha satr yozildi.
